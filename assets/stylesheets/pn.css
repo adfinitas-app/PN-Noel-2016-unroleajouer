@@ -2121,7 +2121,7 @@ p {
     z-index: 55; }
     @media screen and (max-width: 39.9375em) {
       #popin .embed-container {
-        margin: 10px auto !important;
+        margin-top: 50% !important;
         max-width: 100%; } }
   #popin iframe, #popin object, #popin embed {
     position: absolute;
@@ -2528,6 +2528,8 @@ body.has-popin {
   #temoins .polaroid {
     padding: 0; }
   #video h2 {
-    font-size: 17px; } }
+    font-size: 17px; }
+  #ambassadeur a {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=foundation.css.map */
