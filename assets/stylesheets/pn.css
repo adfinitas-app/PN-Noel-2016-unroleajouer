@@ -2307,7 +2307,8 @@ body.has-popin {
     color: #fff;
     vertical-align: top;
     display: inline-block;
-    margin: 0 20px 0 0; }
+    margin: 0 20px 0 0;
+    font-size: 2rem; }
   #follow .soc {
     display: inline-block;
     width: 42px;
@@ -2353,7 +2354,8 @@ body.has-popin {
   right: 0;
   margin: auto;
   bottom: -10px;
-  z-index: 344; }
+  z-index: 344;
+  cursor: pointer; }
 
 @-webkit-keyframes goingdown {
   0% {
@@ -2550,6 +2552,8 @@ body.has-popin {
   #video h2 {
     font-size: 17px; }
   #ambassadeur a {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #follow h1 {
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=foundation.css.map */

@@ -272,6 +272,7 @@ body.has-popin {
         vertical-align: top;
         display: inline-block;
         margin:0 20px 0 0;
+        font-size: 2rem;
     }
     .soc {
         display: inline-block;
@@ -317,7 +318,7 @@ body.has-popin {
     animation: goingdown 2000ms infinite;
     position: absolute; left:0; right:0; margin: auto; bottom: -10px;
     z-index: 344;
-
+    cursor: pointer;
 }
 @keyframes goingdown { 
     0% { transform: translateY(0)}, 

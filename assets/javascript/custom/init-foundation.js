@@ -11,6 +11,9 @@ var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smar
         $('#participe').click(function(){
             $('html, body').animate( { scrollTop: $('#don').offset().top}, 300 );
         });
+        $('#go-role').click(function(){
+            $('html, body').animate( { scrollTop: $('#role').offset().top}, 300 );
+        });
         $('.more').click(function(){
             $(this).siblings('.full').show();
             $(this).hide();

@@ -91,9 +91,9 @@
                 <h1 class="animate animate--from-bottom animate--delay-900">ON TOUS UN RÔLE <br class="show-for-small-only">À JOUER</h1>
                 <a class="button blue animate animate--from-bottom animate--delay-400" id="seeIntro">VOIR LA VIDÉO</a>
             </div>
-            <div class="godown orange"></div>
+            <div id="go-role" class="godown orange"></div>
             <div class="bg-video animate animate--from-bottom" id="video-intro"
-                  data-vide-bg="mp4: assets/images/video_jd.mp4, poster:assets/images/video_jd.jpg" data-vide-options="posterType: jpg, autoplay: true, loop: false, muted: false, position: 0% 50%">
+                  data-vide-bg="mp4: assets/images/video_jd.mp4, poster:assets/images/video_jd.jpg" data-vide-options="posterType: jpg, autoplay: true, loop: true, muted: false, position: 0% 50%">
             </div>
         </div>
         
@@ -156,7 +156,7 @@
                 <div class="column medium-8 medium-offset-2 text-center">
                     <h1 class="orange animate animate--from-top">Vous aussi, <br class="show-for-small-only">jouez un rôle !</h1>
                     <p class="blue-light animate animate--from-bottom animate--delay-300"><b>Faites un don pour aider Perce-Neige à poursuivre son action en faveur des personnes handicapées et de leurs familles</b></p>
-                    <a href="https://donner.perce-neige.org/unroleajouer/" class="button animate animate--opacity animate--delay-500">JE FAIS UN DON</a>
+                    <a href="https://donner.perce-neige.org/unroleajouer/" class="button animate animate--opacity animate--delay-500" target="_blank">JE FAIS UN DON</a>
                     <p class="fiscal animate animate--from-top animate--delay-900">Grâce à la déduction fiscale de 66%, un don de 100 euros ne vous coûtera que 34&nbsp;euros
                     <br><br>
                     <b>Les 100 premiers donateurs qui feront un don de 150 € ou plus recevront ce joli lapin des neiges (15 cm). Il n’attend plus que vous pour jouer son rôle de doudou pour les fêtes !
@@ -169,8 +169,8 @@
         <div id="ambassadeur" class="section">
             <div class="row">
                 <div class="column medium-8 medium-offset-2 text-center">
-                    <h1 class="orange animate animate--from-top">Affichez votre rôle d'ambassadeur<br>de la campagne sur les réseaux sociaux&nbsp;!</h1>
-                    <p class="animate animate--from-bottom animate--delay-300">Remplacez votre photo de profil Twitter ou Facebook ou votre photo de couverture par l’un de nos visuels « J’ai le rôle » et affichez votre soutien à Perce-Neige. <b>Ce rôle d'ambassadeur de la campagne est essentiel pour sensibiliser votre entourage et vos relations</b>.</p>
+                    <h1 class="orange animate animate--from-top">Affichez votre rôle d'ambassadeur<br>sur les réseaux sociaux&nbsp;!</h1>
+                    <p class="animate animate--from-bottom animate--delay-300">Remplacez votre photo de profil ou de couverture Facebook par l’un des visuels « J’ai le rôle », sans oublier de partager notre page sur les réseaux sociaux afin d'affichez votre soutien à Perce-Neige.<br><b>Ce rôle d'ambassadeur de la campagne est essentiel pour sensibiliser votre entourage et vos relations.</b></p>
                     <img src="assets/images/fb-banner_jailerole_2016.jpg" alt="j'ai le rôle !" class="animate animate--from-bottom animate--delay-300">
                     <a href="assets/images/kit-ambassadeur.zip" target="_blank" class="button blue animate animate--from-bottom animate--delay-300">JE TÉLÉCHARGE MON KIT AMBASSADEUR</a>
                 </div>
@@ -178,11 +178,26 @@
         </div>
         
         <div id="follow" class="section text-center animate animate--scaleY animate--delay-200">
-            <h1 class="animate animate--from-left animate--delay-400">Suivez-nous</h1>
-             <br class="show-for-small-only"><br class="show-for-small-only">
-            <span class="animate animate--from-right animate--delay-600"><a href="https://www.facebook.com/associationperceneige/" target="_blank" class="soc fb"></a></span>
-            <span class="animate animate--from-right animate--delay-800"><a href="https://www.youtube.com/playlist?list=PL52013EC3213402EE" target="_blank" class="soc yt"></a></span>
-            <span class="animate animate--from-right animate--delay-900"><a href="https://twitter.com/PerceNeigeinfos/" target="_blank" class="soc tw"></a></span>
+           
+           <div class="row">
+               <div class="column small-12 medium-6 text-center medium-text-right">
+                   <h1 class="animate animate--from-left animate--delay-400">Suivez-nous sur</h1>
+               </div>
+               <div class="column small-12 medium-6 text-center medium-text-left">
+                    <span class="animate animate--from-right animate--delay-600"><a href="https://www.facebook.com/associationperceneige/" target="_blank" class="soc fb"></a></span>
+                    <span class="animate animate--from-right animate--delay-800"><a href="https://www.youtube.com/playlist?list=PL52013EC3213402EE" target="_blank" class="soc yt"></a></span>
+                    <span class="animate animate--from-right animate--delay-900"><a href="https://twitter.com/PerceNeigeinfos/" target="_blank" class="soc tw"></a></span>
+               </div>
+           </div>
+           <div class="row">
+               <div class="column small-12 medium-6 text-center medium-text-right">
+                   <h1 class="animate animate--from-left animate--delay-400">Partagez sur</h1>
+               </div>
+               <div class="column small-12 medium-6 text-center medium-text-left">
+                    <span class="animate animate--from-right animate--delay-600"><a href="https://www.facebook.com/sharer/sharer.php?u=http://unroleajouer.perce-neige.org/" target="_blank" class="soc fb"></a></span>
+                    <span class="animate animate--from-right animate--delay-900"><a href="https://twitter.com/intent/tweet?text=On%20a%20tous%20un%20r&ocirc;le%20&agrave;%20jouer%20!%20@perceneigeinfos&url=http://unroleajouer.perce-neige.org" target="_blank" class="soc tw"></a></span>
+               </div>
+           </div>
         </div>
         
         <div id="footer" class="section text-center">
@@ -198,7 +213,7 @@
                     </a>    
                 </div>
                 
-                <div class="column samll-12 medium-10 medium-pull-1">La Fondation Perce-Neige est agréee par le Comité de la Charte du don en confiance<br>Fondation Perce-Neige - 102 bis, bd Saint-Denis, 92415 Courbevoie Cedex<br>Tel.&nbsp;01&nbsp;47&nbsp;17&nbsp;19&nbsp;30 - <a href="">Nous contacter</a>
+                <div class="column samll-12 medium-10 medium-pull-1">La Fondation Perce-Neige est agréee par le Comité de la Charte du don en confiance<br>Fondation Perce-Neige - 102 bis, bd Saint-Denis, 92415 Courbevoie Cedex<br>Tel.&nbsp;01&nbsp;47&nbsp;17&nbsp;19&nbsp;30 - <a href="https://www.perce-neige.org/contact/" target="_blank">Nous contacter</a>
                 <br>
                 <span class="credit">réalisé par <a href="http://www.adfinitas.fr" target="_blank">Adfinitas</a></span>
                 </div>
