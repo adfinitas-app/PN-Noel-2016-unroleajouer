@@ -2331,6 +2331,8 @@ body.has-popin {
 
 #footer {
   font-size: .9rem; }
+  #footer a {
+    color: #333; }
   #footer .credit {
     font-size: .8rem;
     color: #999; }
