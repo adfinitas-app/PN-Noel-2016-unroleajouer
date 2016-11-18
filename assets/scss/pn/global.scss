@@ -296,6 +296,14 @@ body.has-popin {
 
 #footer {
     font-size: .9rem;
+    
+    .credit {
+        font-size: .8rem;
+        color:#999;
+        a {
+            color:#999;
+        }
+    }
 }
 
 .godown{
@@ -319,19 +327,23 @@ body.has-popin {
 .picto {
     position: absolute !important;
     width: 105px;
-    @include breakpoint (small only) { display: none; }
+    @include breakpoint (small only) { width: 55px; }
     
     &.camera {
         right:10px; bottom:-30px;
+        @include breakpoint (small only) { display: none; }
     }
     &.clap {
         right:50%; top:-40px;
+        @include breakpoint (small only) { display: none; }
     }
     &.chaise {
         left:10%; top:-40px;
+        @include breakpoint (small only) { display: none; }
     }
     &.lapin {
         right:0px; bottom:-70px;
+        @include breakpoint (small only) { bottom: -30px; right:-10px; }
     }
 }
 

@@ -9,7 +9,7 @@
     }
     #video {
         .over {
-             top:10%;
+            top:10%;
             left:0; right:0; 
             margin: auto;
             text-align: center;
@@ -22,9 +22,14 @@
     
     #intro {
         height: 300px !important;
+        .over {
+            bottom:20%;
+        }
     }
     
-    .godown { display: none; }
+    .godown { 
+        //display: none; 
+    }
     
     #temoins {
         h1 { margin-top: 0}

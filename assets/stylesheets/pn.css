@@ -2331,6 +2331,11 @@ body.has-popin {
 
 #footer {
   font-size: .9rem; }
+  #footer .credit {
+    font-size: .8rem;
+    color: #999; }
+    #footer .credit a {
+      color: #999; }
 
 .godown {
   background-size: 1000px 1000px;
@@ -2379,19 +2384,32 @@ body.has-popin {
   width: 105px; }
   @media screen and (max-width: 39.9375em) {
     .picto {
-      display: none; } }
+      width: 55px; } }
   .picto.camera {
     right: 10px;
     bottom: -30px; }
+    @media screen and (max-width: 39.9375em) {
+      .picto.camera {
+        display: none; } }
   .picto.clap {
     right: 50%;
     top: -40px; }
+    @media screen and (max-width: 39.9375em) {
+      .picto.clap {
+        display: none; } }
   .picto.chaise {
     left: 10%;
     top: -40px; }
+    @media screen and (max-width: 39.9375em) {
+      .picto.chaise {
+        display: none; } }
   .picto.lapin {
     right: 0px;
     bottom: -70px; }
+    @media screen and (max-width: 39.9375em) {
+      .picto.lapin {
+        bottom: -30px;
+        right: -10px; } }
 
 .animate {
   position: relative; }
@@ -2519,8 +2537,8 @@ body.has-popin {
       margin-left: 20px; }
   #intro {
     height: 300px !important; }
-  .godown {
-    display: none; }
+    #intro .over {
+      bottom: 20%; }
   #temoins h1 {
     margin-top: 0; }
   #temoins p {
