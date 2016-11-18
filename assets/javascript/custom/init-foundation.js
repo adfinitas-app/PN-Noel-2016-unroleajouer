@@ -14,6 +14,9 @@ var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smar
         $('#go-role').click(function(){
             $('html, body').animate( { scrollTop: $('#role').offset().top}, 300 );
         });
+        $('#go-temoins').click(function(){
+            $('html, body').animate( { scrollTop: $('#temoins').offset().top}, 300 );
+        });
         $('.more').click(function(){
             $(this).siblings('.full').show();
             $(this).hide();
