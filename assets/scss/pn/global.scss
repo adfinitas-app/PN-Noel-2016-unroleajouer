@@ -251,7 +251,7 @@ body.has-popin {
         font-size: .8rem;
         color:$black;
         padding-top: 30px;
-        width: 70%; margin: 0 auto;
+        width: 50%; margin: 0 auto;
     }
     z-index: 1;
     background: url('../images/bg-trame.jpg') center center;
@@ -350,7 +350,8 @@ body.has-popin {
         @include breakpoint (small only) { display: none; }
     }
     &.lapin {
-        right:0px; bottom:-70px;
+        width: 150px !important;
+        right:-20px; bottom:-70px;
         @include breakpoint (small only) { bottom: -30px; right:-10px; }
     }
 }
