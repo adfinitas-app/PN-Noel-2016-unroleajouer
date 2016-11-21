@@ -39,7 +39,7 @@ var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smar
                 site.video.show(yt_video2);
             });
             $('#yt-close, #yt--close-btn').click( site.video.hide );
-            //site.video.show(yt_video1);
+            site.video.show(yt_video1);
 	},
         
     video : {
