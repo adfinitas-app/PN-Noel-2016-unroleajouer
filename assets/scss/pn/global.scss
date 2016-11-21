@@ -175,7 +175,7 @@ body.has-popin {
     background-color: $blue-light;
     position: relative;
     
-    & > .row:first-child {
+    & > .row {
         margin-bottom: 80px;
     }
     h1 { margin-top: 75px; }

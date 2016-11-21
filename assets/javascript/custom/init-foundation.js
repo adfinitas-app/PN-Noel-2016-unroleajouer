@@ -17,6 +17,12 @@ var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smar
         $('#go-temoins').click(function(){
             $('html, body').animate( { scrollTop: $('#temoins').offset().top}, 300 );
         });
+        $('#go-video').click(function(){
+            $('html, body').animate( { scrollTop: $('#video').offset().top}, 300 );
+        });
+        $('#go-ambassadeur').click(function(){
+            $('html, body').animate( { scrollTop: $('#ambassadeur').offset().top}, 300 );
+        });
         $('.more').click(function(){
             $(this).siblings('.full').show();
             $(this).hide();
@@ -39,7 +45,7 @@ var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smar
                 site.video.show(yt_video2);
             });
             $('#yt-close, #yt--close-btn').click( site.video.hide );
-            site.video.show(yt_video1);
+//            site.video.show(yt_video1);
 	},
         
     video : {
