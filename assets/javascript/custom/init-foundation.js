@@ -2,7 +2,7 @@ jQuery(document).foundation();
 
 var	isMobile = (/iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smartphone|iemobile/i.test(navigator.userAgent.toLowerCase())),
 	isTablet = (/ipad|android|android 3.0|xoom|sch-i800|playbook|tablet|kindle/i.test(navigator.userAgent.toLowerCase())),
-    yt_video1 = "GHyT1OjHjUA",
+    yt_video1 = "XAbckYbm2qw",
     yt_video2 = "XuH1FXNGHyM",
     
     site = {
