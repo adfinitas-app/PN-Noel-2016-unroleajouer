@@ -1,4 +1,5 @@
 $('#seeIntro').click(function(){
+	console.log('HERE');
 	woopra.track('interaction', {category:"SPOT_LP_unroleajouer16",action:"clic",url:document.location.href,title: document.title});
 });
 $('#seeMinute').click(function(){
