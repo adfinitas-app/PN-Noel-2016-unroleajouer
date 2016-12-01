@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/pn.css">
+
+  <title>Perce Neige - On a tous un rôle à jouer</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Perce Neige - On a tous un rôle à jouer">
+  <meta property="og:description" content="Quel sera votre plus beau rôle ? Découvrez-le sur unroleajouer.perce-neige.org">
+  <meta property="og:url" content="http://unroleajouer.perce-neige.org" />
+  <meta property="og:site_name" content="On a tous un rôle à jouer" />
+  <meta property="og:image" content="http://unroleajouer.perce-neige.org/assets/images/share.jpg" />
+
+  <!-- Google  -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-11248569-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+  <!-- End Google  -->
+
+  <!-- Start of Woopra Code -->
+  <script>
+    function extractUrlParams(){ 
+        var t = document.location.search.substring(1).split('&'); var f = [];
+        for (var i=0; i<t.length; i++){
+            var x = t[ i ].split('=');
+            f[x[0]]=decodeURIComponent(x[1]);
+        }
+        return f;
+    };
+    (function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+    })("woopra");
+    woopra.config({
+        domain: 'perce-neige.org'
+    });
+    var p = extractUrlParams();
+    if ('email' in p) {
+        if ('lastname' in p && 'firstname' in p) {
+            woopra.identify({
+                email: p['email'],
+                name: p['firstname'] + ' ' + p['lastname']
+            });
+        } else {woopra.identify({email: p['email']})}
+    }
+    woopra.track();
+</script>
+<!-- End of Woopra Code -->
+
+</head>
+<body>
+
+    <div id="header">
+        <a href="https://www.perce-neige.org/" target="_blank" id="logo-lino"><img src="assets/images/logo-lino.jpg"></a>
+        <a id="participe" class="button">JE PARTICIPE</a>
+    </div>
+
+    <div id="intro" class="section">
+        <div class="over">
+            <h1 class="animate animate--from-bottom animate--delay-900">ON A TOUS UN RÔLE <br class="show-for-small-only">À JOUER</h1>
+            <a class="button blue animate animate--from-bottom animate--delay-400" id="seeIntro">VOIR LA VIDÉO</a>
+        </div>
+        <div id="go-role" class="godown orange"></div>
+        <div class="bg-video animate animate--from-bottom" id="video-intro"
+        data-vide-bg="mp4: assets/images/video_jd.mp4, poster:assets/images/video_jd.jpg" data-vide-options="posterType: jpg, autoplay: true, loop: false, muted: false, position: 0% 50%">
+    </div>
+</div>
+
+<div id="role" class="section">
+    <div class="row">
+        <div class="column medium-8 medium-offset-2 text-center">
+            <h1 class="orange animate animate--from-top">Quel sera votre rôle&nbsp;?</h1>
+            <p class="animate animate--from-bottom animate--delay-200">Le 6 décembre 1965, le célèbre acteur Lino Ventura, père d’une petite fille handicapée mentale, lançait un appel émouvant à la télévision pour sensibiliser l’opinion publique. Ce soir-là, Lino Ventura jouait son plus beau rôle. Quelques mois plus tard, il fondait l’Association Perce-Neige. </p>
+            <p class="animate animate--from-bottom animate--delay-400">Aujourd’hui, des stars de cinéma s’engagent aux côtés de Perce-Neige et appellent à la mobilisation. Célèbre ou non, chacun peut jouer un rôle aux côtés des enfants et adultes handicapés.</p>
+            <p class="animate animate--from-bottom animate--delay-500"><b>Les équipes de Perce-Neige s’engagent 365 jours par an.<br>Et vous, à l’approche de Noël, êtes-vous prêt à jouer un rôle ?</b></p>
+            <img src="assets/images/picto_camera.png" class="picto camera animate animate--opacity animate--delay-750">
+        </div>
+    </div>
+    <div id="go-temoins" class="godown orange animate animate--from-top animate--delay-500"></div>
+</div>
+
+<div id="temoins" class="section">
+    <div class="row">
+        <div class="column medium-5 polaroid">
+            <img src="assets/images/polaroid-tatiana.png" alt="tatiana" class="animate animate--opacity">
+        </div>
+        <div class="column medium-7">
+            <h1 class="animate animate--from-right animate--delay-200">AIDE</h1>
+            <h2 class="animate animate--from-right animate--delay-300">MÉDICO-PSYCHOLOGIQUE</h2>
+            <h3 class="animate animate--from-right animate--delay-500">MAISON PERCE-NEIGE DE BRISSAC QUINCÉ</h3>
+            <p class="animate animate--from-bottom animate--delay-500">Il faut parfois 6 mois pour enseigner un seul geste aux personnes autistes de la Maison Perce-Neige. Oui, mon métier demande beaucoup de patience mais ce qui m’encourage c’est de voir les progrès…et d’entendre les familles en parler !</p>
+            <p class="animate animate--from-bottom animate--delay-500">Pour avancer, nous travaillons dur et tous ensemble. Nous avons la chance d’avoir une Maison Perce-Neige très ouverte sur l’extérieur.</p>
+            <p class="full">Grâce à la solidarité des donateurs, nous avons les moyens d’emmener les résidents en sortie : au parc, au cinéma, en randonnée. Même si nous vivons des relations humaines fortes avec les résidents, nous devons toujours agir en professionnels, garder la distance nécessaire, se dire qu’il n’y a rien de personnel quand des crises, liées au stress et aux changements surviennent. Heureusement, elles sont plus rares que les moments de joie que nous partageons avec ces personnes attachantes.</p>
+            <a class="more animate animate--from-bottom animate--delay-200">Lire la suite</a>
+            <img src="assets/images/picto_clap.png" class="picto clap animate animate--opacity">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column medium-5 medium-push-7 polaroid">
+            <img src="assets/images/polaroid-raphael.png" alt="raphael" class="animate animate--opacity">
+        </div>
+        <div class="column small-text-left medium-7 medium-text-right medium-pull-5 snap-right">
+            <h1 class="animate animate--from-left animate--delay-200">RÉSIDENT</h1>
+            <h2 class="animate animate--from-left animate--delay-300">DANS UNE MAISON PERCE-NEIGE</h2>
+            <h3 class="animate animate--from-left animate--delay-500">BÉATRICE, SA MAMAN, TÉMOIGNE</h3>
+            <p class="animate animate--from-bottom animate--delay-500">Raphaël a intégré une Maison Perce-Neige  en région parisienne il y a déjà plusieurs années. J’avoue avoir été très inquiète au début, comme beaucoup de parents …</p>
+            <p class="animate animate--from-bottom animate--delay-500">Maintenant, je sais qu’il s’y plait beaucoup. Il ne me raconte pas tout, mais ses sourires et les couleurs de ses dessins en disent long !</p>
+            <p class="full"> Quand il rentre le week-end chez nous, je sais qu’il a passé une bonne semaine bien remplie dans sa Maison Perce-Neige ; il me dit souvent « Maman, je suis heureux ! ».<br><br>Je sais que Raphaël s’y sent bien et qu’il participe à de nombreuses activités avec les autres résidents.<br><br><br>C’est vraiment essentiel pour moi de savoir qu’il pourra continuer d’être heureux quoiqu’il arrive ».</p>
+            <a  class="more animate animate--from-bottom animate--delay-200">Lire la suite</a>
+            <img src="assets/images/picto_chaise.png" class="picto chaise animate animate--opacity animate--delay-200">
+        </div>
+    </div>
+    <div id="go-video" class="godown orange animate animate--from-top animate--delay-500"></div>
+</div>
+
+<div id="video" class="section">
+    <div class="over">
+        <h2 class="animate animate--from-left animate--delay-300">1 minute pour<br class="show-for-small-only">découvrir Perce-Neige</h2>
+        <a id="seeMinute" class="button blue animate animate--from-right animate--delay-500">VOIR LA VIDEO</a>
+    </div>
+    <img src="assets/images/une-minute-perceneige.jpg" alt="Une minute pour découvrir Perce-Neige" class="animate animate--opacity">
+</div>
+
+<div id="don" class="section">
+    <div class="row">
+        <div class="column medium-8 medium-offset-2 text-center">
+            <h1 class="orange animate animate--from-top">Vous aussi, <br class="show-for-small-only">jouez un rôle !</h1>
+            <p class="blue-light animate animate--from-bottom animate--delay-300"><b>Faites un don pour aider Perce-Neige à poursuivre son action en faveur des personnes handicapées et de leurs familles</b></p>
+            <a href="https://donner.perce-neige.org/unroleajouer/" class="button animate animate--opacity animate--delay-500" target="_blank">JE FAIS UN DON</a>
+            <p class="fiscal animate animate--from-top animate--delay-900">Grâce à la déduction fiscale de 66%, un don de 100 euros ne vous coûtera que 34&nbsp;euros
+                <br><br>
+                <b>Les 100 premiers donateurs qui feront un don de 150 € ou plus recevront ce joli lapin des neiges (15 cm). Il n’attend plus que vous pour jouer son rôle de doudou pour les fêtes !
+                </b></p>
+                <img src="assets/images/picto_lapin.png" class="picto lapin animate animate--opacity animate--delay-500">
+            </div>
+        </div>
+        <div id="go-ambassadeur" class="godown orange animate animate--from-top animate--delay-500"></div>
+    </div>
+
+    <div id="ambassadeur" class="section">
+        <div class="row">
+            <div class="column medium-8 medium-offset-2 text-center">
+                <h1 class="orange animate animate--from-top">Affichez votre rôle d'ambassadeur<br>sur les réseaux sociaux&nbsp;!</h1>
+                <p class="animate animate--from-bottom animate--delay-300">Remplacez votre photo de profil ou de couverture Facebook ou Twitter par l’un des visuels « J’ai le rôle », sans oublier de partager notre page sur les réseaux sociaux afin d'afficher votre soutien à Perce-Neige.<br><b>Ce rôle d'ambassadeur de la campagne est essentiel pour sensibiliser votre entourage et vos relations.</b></p>
+                <img src="assets/images/fb-banner_jailerole_2016.jpg" alt="j'ai le rôle !" class="animate animate--from-bottom animate--delay-300">
+                <a href="assets/images/kit-ambassadeur_unroleajouer.zip" target="_blank" class="button blue animate animate--from-bottom animate--delay-300 show-for-medium" id="dw-kit">JE TÉLÉCHARGE MON KIT AMBASSADEUR</a>
+            
+                <a href="assets/images/unroleajouer_photo-profil.jpg" target="_blank" class="button blue animate animate--from-bottom animate--delay-300 show-for-small-only">JE TÉLÉCHARGE LA PHOTO DE PROFIL</a>
+                <a href="assets/images/unroleajouer_couverture-facebook.jpg" target="_blank" class="button blue animate animate--from-bottom animate--delay-300 show-for-small-only">JE TÉLÉCHARGE LA COVER FACEBOOK</a>
+                <a href="assets/images/unroleajouer_couverture-twitter.jpg" target="_blank" class="button blue animate animate--from-bottom animate--delay-300 show-for-small-only">JE TÉLÉCHARGE LA COVER TWITTER</a>
+                <a href="assets/images/unroleajouer_photo-instagram.jpg" target="_blank" class="button blue animate animate--from-bottom animate--delay-300 show-for-small-only">JE TÉLÉCHARGE LA COVER INSTAGRAM</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="follow" class="section text-center animate animate--scaleY animate--delay-200">
+
+     <div class="row">
+         <div class="column small-12 medium-6 text-center medium-text-right">
+             <h1 class="animate animate--from-left animate--delay-400">Suivez-nous sur</h1>
+         </div>
+         <div class="column small-12 medium-6 text-center medium-text-left">
+            <span class="animate animate--from-right animate--delay-600"><a href="https://www.facebook.com/associationperceneige/" target="_blank" class="soc fb"></a></span>
+            <span class="animate animate--from-right animate--delay-800"><a href="https://www.youtube.com/playlist?list=PL52013EC3213402EE" target="_blank" class="soc yt"></a></span>
+            <span class="animate animate--from-right animate--delay-900"><a href="https://twitter.com/PerceNeigeinfos/" target="_blank" class="soc tw"></a></span>
+        </div>
+    </div>
+    <div class="row">
+     <div class="column small-12 medium-6 text-center medium-text-right">
+         <h1 class="animate animate--from-left animate--delay-400">Partagez sur</h1>
+     </div>
+     <div class="column small-12 medium-6 text-center medium-text-left">
+        <span class="animate animate--from-right animate--delay-600"><a href="https://www.facebook.com/sharer/sharer.php?u=http://unroleajouer.perce-neige.org/" target="_blank" id="share-fb" class="soc fb"></a></span>
+        <span class="animate animate--from-right animate--delay-900"><a href="https://twitter.com/intent/tweet?text=Quel%20sera%20votre%20plus%20beau%20r&ocirc;le%20?%20D&eacute;couvrez-le%20sur%20unroleajouer.perce-neige.org%20@perceneigeinfos&url=" target="_blank" id="share-tw" class="soc tw"></a></span>
+    </div>
+</div>
+</div>
+
+<div id="footer" class="section text-center">
+    <div class="row">
+        <div class="column small-6 medium-1">
+            <a href="https://www.perce-neige.org/" target="_blank">
+                <img src="assets/images/logo-pn.png" id="logo-png" alt="Perce Neige">
+            </a>
+        </div>
+        <div class="column small-6 medium-1 medium-push-10">
+            <a href="http://www.donenconfiance.org/ " target="_blank">
+                <img src="assets/images/don-confiance.png" id="logo-png" alt="Don de confiance">
+            </a>    
+        </div>
+
+        <div class="column samll-12 medium-10 medium-pull-1">La Fondation Perce-Neige est agréée par le Comité de la Charte du don en confiance<br>102 bis, bd Saint-Denis, 92415 Courbevoie Cedex<br>Tel.&nbsp;01&nbsp;47&nbsp;17&nbsp;19&nbsp;30 - <a href="https://www.perce-neige.org/contact/" target="_blank">Nous contacter</a>
+            <br>
+            <span class="credit">réalisé par <a href="http://www.adfinitas.fr" target="_blank">Adfinitas</a></span>
+        </div>
+    </div>
+</div>
+
+<div id="popin">
+    <div class="embed-container">
+        <iframe id="yt" src="" frameborder="0" ></iframe>
+    </div>
+    <div id="yt--close-bg"></div>
+    <div id="yt--close-btn"></div>
+</div>    
+
+<script src="assets/javascript/pn.js"></script>
+<script src="assets/javascript/woopra.js"></script>
+<script>
+    $(function() {
+        $('html, body').animate( { scrollTop: $('#video').offset().top }, 666 );
+    });
+</script>
+</body>
+
+</html>
