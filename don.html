@@ -139,7 +139,7 @@
 
 <div id="video" class="section">
     <div class="over">
-        <h2 class="animate animate--from-left animate--delay-300">1 minute pour<br class="show-for-small-only">découvrir Perce-Neige</h2>
+        <h2 class="animate animate--from-left animate--delay-300">1 minute pour <br class="show-for-small-only">découvrir Perce-Neige</h2>
         <a id="seeMinute" class="button blue animate animate--from-right animate--delay-500">VOIR LA VIDEO</a>
     </div>
     <img src="assets/images/une-minute-perceneige.jpg" alt="Une minute pour découvrir Perce-Neige" class="animate animate--opacity">
@@ -233,7 +233,9 @@
 <script src="assets/javascript/woopra.js"></script>
 <script>
     $(function() {
-        $('html, body').animate( { scrollTop: $('#don').offset().top }, 666 );
+        setTimeout(function(){
+            $('html, body').animate( { scrollTop: $('#don').offset().top }, 666 );
+        },500);
     });
 </script>
 </body>
